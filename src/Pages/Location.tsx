@@ -13,7 +13,7 @@ const Location = () => {
         <Grid item xs={12} sx={{ mt: 5 }}>
           <Typography
             variant='body1'
-            sx={{ textAlign: "center", color: "white" }}
+            sx={{ textAlign: "center", color: "white", mx: 10 }}
           >
             Ceremony and Reception will be hosted at{" "}
             <a
@@ -22,7 +22,11 @@ const Location = () => {
               style={{ color: "white" }}
             >
               The Ink House
-            </a>
+            </a>{" "}
+            in Edwardsville, directly behind the Madison County Court House.
+            <br />
+            Parking is shared with the Court House, street parking is available
+            as well.
           </Typography>
         </Grid>
         <Grid item xs={12} sx={{ mt: 5 }}>
@@ -31,17 +35,9 @@ const Location = () => {
             sx={{ textAlign: "center", color: "white" }}
           >
             The Ink House
-          </Typography>
-          <Typography
-            variant='body1'
-            sx={{ textAlign: "center", color: "white" }}
-          >
+            <br />
             117N 2nd St
-          </Typography>
-          <Typography
-            variant='body1'
-            sx={{ textAlign: "center", color: "white" }}
-          >
+            <br />
             Edwardsville, IL 62025
           </Typography>
         </Grid>
